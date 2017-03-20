@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/layout_veritcal_margemBottom"
+    android:layout_marginTop="@dimen/layout_veritcal_margemBottom"
+    android:layout_marginRight="@dimen/layout_horizontal_margemBottom"
+    android:layout_marginLeft="@dimen/layout_horizontal_margemBottom"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:text="Nome:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nomeEditText" />
+
+    <TextView
+        android:text="Senha:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/senhaEditText" />
+
+    <Button
+        android:text="Entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logarUsuario"
+        android:id="@+id/entrarButton" />
+
+</LinearLayout>

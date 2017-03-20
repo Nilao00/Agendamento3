@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Agendamento pitágoras</string>
+    <string name="add">Adicionar</string>
+    <string name="name">Nome</string>
+    <string name="warning_main">Informe a sala a ser agendada</string>
+    <string name="senha">senha</string>
+    <string name="nome_usuario">Nome:</string>
+</resources>
